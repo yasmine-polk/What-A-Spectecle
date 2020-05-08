@@ -1,0 +1,34 @@
+body {
+    font-family: 'Montserrat Subrayada', sans-serif;
+    font-family: 'Aclonica', sans-serif;
+    color:gainsboro;
+}
+.background {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.background img {
+    width: 100%;
+}
+a {
+    color: gainsboro;
+    text-decoration: none;
+}
+
+h1 {
+    font-size:50px;
+}
+
+h2 {
+    position: absolute;
+    left: 0;
+    top: 20%;
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+}

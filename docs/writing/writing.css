@@ -1,0 +1,38 @@
+body {
+    font-family: 'Montserrat Subrayada', sans-serif;
+    font-family: 'Aclonica', sans-serif;
+    color: whitesmoke;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.background {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.background img {
+    width: 100%;
+}
+
+h1 {
+    font-size:50px;
+}
+
+h2 {
+    position: absolute;
+    left: 35%;
+    top: 20%;
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    border: solid;
+    width: 500px;
+}
