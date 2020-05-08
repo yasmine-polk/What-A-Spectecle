@@ -41,6 +41,7 @@ p {
     color:deeppink;
     word-wrap: break-word;
 }
+
 #Bio{   
     hyphens: auto; 
     right: 450px;
