@@ -202,3 +202,36 @@ h2 {
     color: deeppink;
   }
 
+  .project-video-container {
+
+    width: 70vw;
+    position: absolute;
+
+    top: 550px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+
+
+  }
+
+  .project-video {
+    margin: 20px;
+    width: 45%;
+    min-width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  .video-title {
+      margin-top: -10px;
+      text-align: center;
+  }
+
