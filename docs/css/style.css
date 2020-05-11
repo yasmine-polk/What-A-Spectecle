@@ -55,41 +55,73 @@ h2 {
 
 #Bio{   
     hyphens: auto; 
-    right: 300px;
-    border: solid;
-    width: 300px;
+    left: 300px;
+    width: 200px;
     position: fixed;
-    top: 30%;
-    width: 60%;
+    top: 35%;
+    width: 20%;
     text-align: center;
-    font-size: 20px;
+    font-size: 16px;
     color:deeppink;
     word-wrap: break-word;
+    
 }
 
+#why {
+    hyphens: auto; 
+    right: 50px;
+    width: 600px;
+    position: fixed;
+    text-align: center;
+    font-size: 17px;
+    bottom: 200px;
+   color: deeppink;
+  }
+
+  #happy{
+    hyphens: auto; 
+    right: 50px;
+    width: 600px;
+    position: fixed;
+    text-align: center;
+    font-size: 16px;
+    bottom: 50px;
+    color: deeppink;
+}
+  
+
+
+#float {
+    float: left;
+    width: 150px;
+}
 
 #me{
     position: absolute;
     bottom: 8px;
-    left: 50px;
+    left: 40px;
     height: 350px;
     width: 300px;
+    border-radius: 50%;
+    
+    
 }
 #us {
     position: absolute;
-    bottom: 8px;
+    top: 8px;
     right: 50px;
     height: 340px;
-    
+    border-radius: 50%;
+    float: right;
+   shape-outside: circle();
 }
 
 .my-name {
     position: absolute;
-    left: 0;
+    left: 00px;
     top: 20%;
     width: 100%;
-    text-align: center;
-    font-size: 40px;
+    font-size: 30px;
     color: deeppink
 
 }
